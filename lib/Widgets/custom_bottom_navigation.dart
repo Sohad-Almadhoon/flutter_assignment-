@@ -26,7 +26,7 @@ class _CustomBottomNavigationState extends State<CustomBottomNavigation> {
       notchMargin: 5,
       child: Row(
         mainAxisSize: MainAxisSize.max,
-        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        mainAxisAlignment: MainAxisAlignment.spaceAround,
         children: <Widget>[
           Column(
             mainAxisAlignment: MainAxisAlignment.center,

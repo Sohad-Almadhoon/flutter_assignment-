@@ -21,20 +21,21 @@ class MyTable extends StatelessWidget {
                     width: 150,
                     padding: const EdgeInsets.all(8),
                     margin: const EdgeInsets.all(4),
-                    color: Colors.grey,
-                    child: const Text("Subject")),
-                Container(
-                    width: 150,
                     color: Colors.amber,
-                    padding: const EdgeInsets.all(8),
-                    margin: const EdgeInsets.all(4),
-                    child: const Text("x")),
+                    child: const Text("Subject" , style: TextStyle(fontSize: 20),)),
                 Container(
                     width: 150,
                     color: Colors.grey,
                     padding: const EdgeInsets.all(8),
                     margin: const EdgeInsets.all(4),
-                    child: const Text("x"))
+                    child: const Text("Subject 1",
+                        style: TextStyle(fontSize: 20))),
+                Container(
+                    width: 150,
+                    color: Colors.grey,
+                    padding: const EdgeInsets.all(8),
+                    margin: const EdgeInsets.all(4),
+                    child: const Text("Subject 2", style: TextStyle(fontSize: 20)))
               ],
             ),
             Column(
@@ -42,22 +43,23 @@ class MyTable extends StatelessWidget {
               children: [
                 Container(
                     width: 150,
-                    color: Colors.grey,
-                    padding: const EdgeInsets.all(8),
-                    margin: const EdgeInsets.all(4),
-                    child: const Text("Subject hours")),
-                Container(
-                    width: 150,
                     color: Colors.amber,
                     padding: const EdgeInsets.all(8),
                     margin: const EdgeInsets.all(4),
-                    child: const Text("x")),
+                    child: const Text("Subject hours",
+                        style: TextStyle(fontSize: 20))),
                 Container(
                     width: 150,
                     color: Colors.grey,
                     padding: const EdgeInsets.all(8),
                     margin: const EdgeInsets.all(4),
-                    child: const Text("x"))
+                    child: const Text("2 hours", style: TextStyle(fontSize: 20))),
+                Container(
+                    width: 150,
+                    color: Colors.grey,
+                    padding: const EdgeInsets.all(8),
+                    margin: const EdgeInsets.all(4),
+                    child: const Text("3 hours", style: TextStyle(fontSize: 20)))
               ],
             ),
           ],
